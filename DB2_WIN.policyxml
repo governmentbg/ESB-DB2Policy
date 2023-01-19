@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<policies>
+  <policy policyType="JDBCProviders" policyName="DB2_WIN" policyTemplate="DB2_91">
+    <databaseName>esblog</databaseName>
+    <databaseType>DB2 Universal Database</databaseType>
+    <databaseVersion>9.1</databaseVersion>
+    <type4DriverClassName>com.ibm.db2.jcc.DB2Driver</type4DriverClassName>
+    <type4DatasourceClassName>com.ibm.db2.jcc.DB2XADataSource</type4DatasourceClassName>
+    <connectionUrlFormat>jdbc:db2://daeu.integration.db:50000/esblog:user=db2inst1;password=Adm1n3sb#;</connectionUrlFormat>
+    <connectionUrlFormatAttr1></connectionUrlFormatAttr1>
+    <connectionUrlFormatAttr2></connectionUrlFormatAttr2>
+    <connectionUrlFormatAttr3></connectionUrlFormatAttr3>
+    <connectionUrlFormatAttr4></connectionUrlFormatAttr4>
+    <connectionUrlFormatAttr5></connectionUrlFormatAttr5>
+    <serverName>daeu.integration.db</serverName>
+    <portNumber>50000</portNumber>
+    <jarsURL>C:\\Program Files\\IBM\\ACE\\11.0.0.10\\tools\\plugins\\com.ibm.datatools.db2_2.2.200.v20150728_2354\\driver</jarsURL>
+    <databaseSchemaNames></databaseSchemaNames>
+    <description></description>
+    <maxConnectionPoolSize>0</maxConnectionPoolSize>
+    <securityIdentity></securityIdentity>
+    <environmentParms></environmentParms>
+    <jdbcProviderXASupport>true</jdbcProviderXASupport>
+    <useDeployedJars>false</useDeployedJars>
+  </policy>
+</policies>
